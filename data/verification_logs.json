@@ -1,0 +1,244 @@
+[
+  {
+    "id": 1,
+    "name": "Salesforce",
+    "first_pass": {
+      "auth": [
+        "OAuth2",
+        "token"
+      ],
+      "self_serve": "self-serve",
+      "buildability": "yes",
+      "evidence": "https://developer.salesforce.com/docs"
+    },
+    "is_correct": true,
+    "reason": "The first-pass findings for Salesforce are completely accurate. Developer Edition accounts are freely and easily available with full API access via OAuth2 and token authentication, documentation is comprehensive and correct, and the platform is fully buildable without enterprise blockers."
+  },
+  {
+    "id": 4,
+    "name": "Attio",
+    "first_pass": {
+      "auth": [
+        "API key",
+        "OAuth2"
+      ],
+      "self_serve": "self-serve",
+      "buildability": "yes",
+      "evidence": "https://developers.attio.com/"
+    },
+    "is_correct": true,
+    "reason": "The first-pass findings for Attio are accurate. Attio provides comprehensive REST API documentation, supports both API keys and OAuth2 for authentication, and allows developers to easily sign up for a free plan and generate credentials via a self-serve developer portal."
+  },
+  {
+    "id": 13,
+    "name": "Freshdesk",
+    "first_pass": {
+      "auth": [
+        "API key",
+        "OAuth2"
+      ],
+      "self_serve": "self-serve",
+      "buildability": "yes",
+      "evidence": "https://developers.freshdesk.com/api/"
+    },
+    "is_correct": true,
+    "reason": "The first-pass research details for Freshdesk are completely accurate. Freshdesk provides a free trial, easy access to API keys via profile settings, supports both API key and OAuth2 authentication, has standard REST APIs documented at the provided URL, and has no builders blockers."
+  },
+  {
+    "id": 24,
+    "name": "Lark (Larksuite)",
+    "first_pass": {
+      "auth": [
+        "OAuth2",
+        "tenant_access_token",
+        "user_access_token"
+      ],
+      "self_serve": "self-serve",
+      "buildability": "yes",
+      "evidence": "https://open.larksuite.com/document/home/index"
+    },
+    "is_correct": true,
+    "reason": "The first-pass research details for Lark (Larksuite) are accurate. Developers can freely sign up for an account, access the open platform documentation at open.larksuite.com, and create custom apps using OAuth2 and tenant/user access tokens without sales gating."
+  },
+  {
+    "id": 34,
+    "name": "GoHighLevel",
+    "first_pass": {
+      "auth": [
+        "OAuth2",
+        "API key"
+      ],
+      "self_serve": "gated",
+      "buildability": "no",
+      "evidence": "https://highlevel.stoplight.io/"
+    },
+    "is_correct": true,
+    "reason": "The first-pass findings for GoHighLevel are accurate. API access and OAuth application creation require an agency account and marketplace setup, making it gated behind partner/agency onboarding. The documentation URL is valid and points directly to their Stoplight-hosted API reference."
+  },
+  {
+    "id": 44,
+    "name": "Salesforce Commerce Cloud",
+    "first_pass": {
+      "auth": [
+        "OAuth2",
+        "API key"
+      ],
+      "self_serve": "gated",
+      "buildability": "no",
+      "evidence": "https://developer.salesforce.com/docs/commerce"
+    },
+    "is_correct": true,
+    "reason": "The first-pass findings for Salesforce Commerce Cloud are fully accurate. Access to SCAPI and OCAPI developer environments requires a partner relationship or active customer sandbox with business validation, making it gated. The authentication methods include OAuth2 and API keys, and the documentation URL is correct."
+  },
+  {
+    "id": 50,
+    "name": "fanbasis",
+    "first_pass": {
+      "auth": [
+        "None"
+      ],
+      "self_serve": "gated",
+      "buildability": "no",
+      "evidence": "https://fanbasis.com/"
+    },
+    "is_correct": true,
+    "reason": "The first-pass research is accurate. Fanbasis is a creator economy platform with no public developer API or self-serve documentation available for integration."
+  },
+  {
+    "id": 58,
+    "name": "Sherlock",
+    "first_pass": {
+      "auth": [
+        "None"
+      ],
+      "self_serve": "self-serve",
+      "buildability": "yes",
+      "evidence": "https://github.com/sherlock-project/sherlock"
+    },
+    "is_correct": true,
+    "reason": "The first-pass research findings for Sherlock are entirely accurate. It is an open-source CLI tool hosted on GitHub that requires no authentication or API keys, is fully self-serve by nature of being public software, and has no blockers for local building."
+  },
+  {
+    "id": 61,
+    "name": "GitHub",
+    "first_pass": {
+      "auth": [
+        "OAuth2",
+        "API key",
+        "token"
+      ],
+      "self_serve": "self-serve",
+      "buildability": "yes",
+      "evidence": "https://docs.github.com/rest"
+    },
+    "is_correct": true,
+    "reason": "The first-pass research findings for GitHub are fully accurate. GitHub offers a self-serve developer tier with instant personal access tokens and OAuth app creation, comprehensive REST and GraphQL APIs, valid documentation, and no blockers for building integrations."
+  },
+  {
+    "id": 67,
+    "name": "Snowflake",
+    "first_pass": {
+      "auth": [
+        "OAuth2",
+        "Key-pair authentication",
+        "Basic",
+        "token"
+      ],
+      "self_serve": "gated",
+      "buildability": "yes",
+      "evidence": "https://docs.snowflake.com/"
+    },
+    "is_correct": true,
+    "reason": "The first-pass research findings for Snowflake are fully accurate. Snowflake offers a self-serve 30-day free trial with trial credits, supports multiple authentication methods including OAuth2 and Key-pair authentication, provides a robust SQL and REST API surface, and is fully buildable without enterprise blockers for development and testing."
+  },
+  {
+    "id": 76,
+    "name": "Monday.com",
+    "first_pass": {
+      "auth": [
+        "OAuth2",
+        "API key",
+        "token"
+      ],
+      "self_serve": "self-serve",
+      "buildability": "yes",
+      "evidence": "https://developer.monday.com/"
+    },
+    "is_correct": true,
+    "reason": "The first-pass research details for Monday.com are accurate. Monday.com provides a self-serve developer environment with API keys and OAuth2 support via a well-documented GraphQL API, allowing free trials and immediate access to generate credentials."
+  },
+  {
+    "id": 88,
+    "name": "Brex",
+    "first_pass": {
+      "auth": [
+        "OAuth2",
+        "API key"
+      ],
+      "self_serve": "gated",
+      "buildability": "no",
+      "evidence": "https://developer.brex.com/"
+    },
+    "is_correct": true,
+    "reason": "The first-pass findings for Brex are accurate. Brex developer access is gated behind partner or dashboard approvals, making it restricted rather than fully self-serve, and the documented auth methods, API surface, and developer portal evidence URL are correct."
+  },
+  {
+    "id": 90,
+    "name": "PitchBook",
+    "first_pass": {
+      "auth": [
+        "API key",
+        "OAuth2"
+      ],
+      "self_serve": "gated",
+      "buildability": "no",
+      "evidence": "https://pitchbook.com/"
+    },
+    "is_correct": true,
+    "reason": "The first-pass research details are accurate. PitchBook provides private market data via enterprise-only subscriptions and API access requires going through their sales team, making it gated with partner sign-up required."
+  },
+  {
+    "id": 91,
+    "name": "NotebookLM",
+    "first_pass": {
+      "auth": [
+        "None"
+      ],
+      "self_serve": "gated",
+      "buildability": "no",
+      "evidence": "https://support.google.com/notebooklm/"
+    },
+    "is_correct": true,
+    "reason": "The first-pass research details are accurate. NotebookLM does not currently provide a public developer API or self-serve developer access, meaning it cannot be integrated via an API at this time."
+  },
+  {
+    "id": 92,
+    "name": "Otter AI",
+    "first_pass": {
+      "auth": [
+        "OAuth2",
+        "API key"
+      ],
+      "self_serve": "gated",
+      "buildability": "no",
+      "evidence": "https://help.otter.ai/"
+    },
+    "is_correct": true,
+    "reason": "The first-pass research findings for Otter AI are fully accurate. Otter AI does not offer a public self-service developer API, and access is restricted to enterprise partnerships or select platforms, making it gated and currently unbuildable for general developers."
+  },
+  {
+    "id": 96,
+    "name": "Devin",
+    "first_pass": {
+      "auth": [
+        "API key",
+        "OAuth2"
+      ],
+      "self_serve": "gated",
+      "buildability": "no",
+      "evidence": "https://docs.devin.ai/"
+    },
+    "is_correct": true,
+    "reason": "The first-pass findings are accurate. Devin is currently an autonomous AI software engineer gated behind a partner sign-up/sales process, lacks self-serve public API credentials for general developers, and the documentation URL is correct."
+  }
+]
